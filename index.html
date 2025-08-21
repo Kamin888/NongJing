@@ -101,7 +101,7 @@
     <div class="center-box">
         <!-- รูปบรรทัดแรก -->
          <h2>เตๆ รักพี่หม้ายยย</h2>
-        <img src="/img/น้องเช.jpg" alt="">
+        <img src="img/น้องเช.jpg" alt="">
         <!-- ตัวเลือกสองอัน -->
         <div class="options">
             <button class="option-btn" id="option1" style="background:#65c068;">ร้ากก</button>
@@ -121,7 +121,7 @@
 
         if (clickCount === 1) {
             // เปลี่ยนรูปเป็นรูปที่ 2
-            img.src = "/img/2.jpg";
+            img.src = "img/2.jpg";
             option2.style.transform = 'scale(0.8)';
             option1.style.transform = 'scale(1.4) translate(50%, -50%)';
             option2.style.transition = 'transform 0.3s';
@@ -131,7 +131,7 @@
 
         } else if (clickCount === 2) {
             // เปลี่ยนรูปเป็นรูปที่ 3
-            img.src = "/img/3.jpg";
+            img.src = "img/3.jpg";
             centerBox.style.transform = 'translate(50%, -50%)';
             centerBox.style.transition = 'transform 0.5s ease';
             option2.style.transform = 'scale(0.6)';
@@ -140,7 +140,7 @@
             option1.style.transition = 'transform 0.3s';
 
         } else if (clickCount === 3) {
-            img.src = "/img/4.jpg";
+            img.src = "img/4.jpg";
             centerBox.style.transform = 'translate(-50%, -50%) rotate(20deg)';
             centerBox.style.transition = 'transform 0.5s ease';
             option2.style.transform = 'scale(0.4)';
@@ -149,7 +149,7 @@
             option1.style.transition = 'transform 0.3s';
 
         } else if (clickCount === 4) {
-            img.src = "/img/5.jpg";
+            img.src = "img/5.jpg";
             option2.style.display = 'none';
             option1.style.transform = 'scale(3) translateX(0)';
             option1.style.margin = '0 auto';
@@ -188,7 +188,7 @@
         h2.style.color = "#ff69b4";
 
         // คงค่าเดิมไว้
-        img.src = "/img/yes.jpg";
+        img.src = "img/yes.jpg";
         h2.textContent = "เย่ดีใจจังเลย เดี๋ยวพาไปกินตี๋น้อย";
     });
 </script>
